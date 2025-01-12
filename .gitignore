@@ -1,0 +1,52 @@
+# Binaries for programs and executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+
+# SQLite database files
+*.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Vendor directory for dependencies
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Go build artifacts
+/go/bin/
+/go/pkg/
+/go/src/
+
+# Ignore Git configuration and metadata
+.git/
+*.orig
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore compiled migrations (if applicable)
+migrations/*.out
