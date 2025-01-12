@@ -1,4 +1,4 @@
-# Task Management API
+# kenzoSec_task
 
 This is a RESTful Task Management API built with Go, using the Gin framework, SQLite for the database, and Docker for containerization. It allows users to create, retrieve, update, and delete tasks, with both public and protected endpoints. 
 
@@ -29,7 +29,7 @@ This is a RESTful Task Management API built with Go, using the Gin framework, SQ
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/mukeshmahajan/task-management-api.git
+   git clone https://github.com/mukeshmahajan/kenzoSec_task.git
    cd task-management-api
 
 2. **Install dependency**:
@@ -71,10 +71,10 @@ go test ./...
 # Docker
 
 **Build the Docker Image**
-docker build -t task-management-api .
+docker build -t kenzoSec_task .
 
 **Run the Container**
-docker run -p 8080:8080 --env-file .env task-management-api
+docker run -p 8080:8080 --env-file .env kenzoSec_task
 
 ## Project Structure
 
