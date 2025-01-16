@@ -18,8 +18,6 @@ func GetTaskByID(c *gin.Context) {
 	c.JSON(http.StatusOK, task)
 }
 
-// Implement CreateTask, UpdateTask, and DeleteTask similarly
-
 func CreateTask(c *gin.Context) {
 	var newTask models.Task
 
